@@ -17,7 +17,6 @@ function clickButton(){
     li.innerHTML = input.value;
 
     //삭제버튼이 처음부터 있으면 안 예쁘고 리스트가 만들 때마다 추가되는 것이 올바름
-    
     li.innerHTML += "<button style='float: right;' onclick='remove("+count+")' class='btn btn-outline-primary btn-sm'>삭제</button>" //+가 없으면 입력값이 저장되지 않고 삭제 버튼만 출력
     li.innerHTML += "<button style='float: right;' onclick='check("+count+")' class='btn btn-outline-primary btn-sm'>체크</button>"
 
@@ -33,6 +32,17 @@ function clickButton(){
 function check(count){
     var li = document.getElementById("li"+count);
     li.style.textDecoration = "line-through"
+
+    /*
+    text-decoration은 선으로 텍스트를 꾸밀 수 있게 해주는 속성입니다.
+    none : 선을 만들지 않습니다.
+    line-through : 글자 중간에 선을 만듭니다.
+    overline : 글자 위에 선을 만듭니다.
+    underline : 글자 아래에 선을 만듭니다.
+    initial : 기본값으로 설정합니다.
+    inherit : 부모 요소의 속성값을 상속받습니다.
+    */
+
 }
 
 //삭제버튼 클릭시

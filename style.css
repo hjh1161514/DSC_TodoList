@@ -1,3 +1,14 @@
+/*
+    https://fonts.google.com/
+    -> 원하는 폰트 선택
+    -> + Select this style 선택
+    -> Embed의 @import 선택
+    -> 1. style 태그 제외한 @import 복사
+    -> 2. style.css 안에 넣기
+    -> 3. CSS rules to specify families 에 해당하는 코드 복사
+    -> 4. 원하는 태그 안에 넣기
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 
 body{
@@ -13,6 +24,8 @@ ul{
     padding-top: 3%;
 
 }
+
+/*em : font_size, 해당폰트의 대문자 M의 너비를 기준으로 함.*/
 
 .list-group-item {
 	margin-top: 1em;
