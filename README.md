@@ -31,6 +31,21 @@ width="900px" />
 <br>
 
 ## 배운점
+textDecoration 속성
+<br>
+text-decoration은 선으로 텍스트를 꾸밀 수 있게 해주는 속성입니다.
+<br>
+none : 선을 만들지 않습니다.
+<br>
+line-through : 글자 중간에 선을 만듭니다.
+<br>
+overline : 글자 위에 선을 만듭니다.
+<br>
+underline : 글자 아래에 선을 만듭니다.
+<br>
+initial : 기본값으로 설정합니다.
+<br>
+inherit : 부모 요소의 속성값을 상속받습니다.
 
 
 
