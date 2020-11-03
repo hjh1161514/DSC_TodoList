@@ -15,19 +15,19 @@
 - 첫 화면 
 <br>
 <img style="border: 1px solid black !important; border-radius:20px; " src="https://user-images.githubusercontent.com/61824695/97990326-192cff00-1e23-11eb-9a8e-c5b6a77a34fd.PNG"
-width="300px" />
+width="900px" />
 <br>
 
-- 점수를 얻는 경우
+- 입력 화면
 <br>
 <img style="border: 1px solid black !important; border-radius:20px; " src="https://user-images.githubusercontent.com/61824695/97990329-19c59580-1e23-11eb-932f-92a6dddc1fc1.PNG"
-width="300px" />
+width="900px" />
 <br>
 
-- 기회를 잃는 경우
+- 체크 버튼을 누른 화면
 <br>
 <img style="border: 1px solid black !important; border-radius:20px; " src="https://user-images.githubusercontent.com/61824695/97990330-1af6c280-1e23-11eb-8a1b-975df5318eed.PNG"
-width="300px" />
+width="900px" />
 <br>
 
 ## 배운점
